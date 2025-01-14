@@ -43,7 +43,7 @@ Este projeto foi desenvolvido durante o semestre de 2024.2, na disciplina de Jav
 ### Passos
 1. Clone o repositório:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone <https://github.com/codinGloria/sistemaAnotacoes.git>
    ```
 
 2. Navegue até o diretório do projeto:
