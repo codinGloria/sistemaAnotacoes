@@ -29,7 +29,7 @@ app.delete('/anotacoes/:id', (req, res) => {
 });
 
 const port = 5500;
-const host = "127.0.0.1";
+const host = "0.0.0.0";
 
 app.listen(port, host, () => {
     console.log(`Servidor inicializado em http://${host}:${port}`);

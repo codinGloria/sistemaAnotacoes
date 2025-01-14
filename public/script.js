@@ -26,7 +26,7 @@ formCriarAnotacao.onsubmit = async (event) => {
 }
 
 async function carregaAnotacoes(){
-    const resposta = await fetch("http://127.0.0.1:5500/anotacoes");
+    const resposta = await fetch("http://0.0.0.0:5500/anotacoes");
     const anotacoes = await resposta.json();
 
     ulAnotacoes.innerHTML = "";
@@ -36,7 +36,7 @@ async function carregaAnotacoes(){
         buttonDeletar.innerHTML = "Deletar";
         buttonDeletar.className = "botao";
         buttonDeletar.onclick = async () => {
-            const resposta = await fetch(`http://127.0.0.1:5500/anotacoes/${id}`, {
+            const resposta = await fetch(`http://0.0.0.0:5500/anotacoes/${id}`, {
                 method: "DELETE",
             });
 
